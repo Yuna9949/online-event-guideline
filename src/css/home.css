@@ -5,7 +5,7 @@ div {
 .background {
     width: 100vw;
     height: 100vh;
-    background: rgb(255, 255, 130);
+    background: rgba(170, 245, 245, 0.8);
     
     top: 0;
     left: 0;
@@ -48,10 +48,13 @@ div {
     width: 150px;
     height: 75px;
 
-    background: rgb(255, 255, 130);
+    background: rgba(170, 245, 245, 0.8);
     border-radius: 50px;
 
-    margin: 40px;
+    margin-left: 40px;
+    margin-right: 40px;
+    margin-top: 20px;
+    margin-bottom: 20px;
     justify-content: center;
 }
 
@@ -60,14 +63,14 @@ div {
     font-size: 20px;
     font-weight: bold;
 
-    padding-top: 5px;
+    padding-top: 10px;
 }
 
 .purpose {
-    height: 450px;
+    height: 490px;
     width: 700px;
     
-    background: rgb(255, 255, 130);
+    background: rgba(170, 245, 245, 0.8);
     border-radius: 50px;
 
     overflow: hidden;
@@ -79,7 +82,7 @@ div {
 .persentage {
     width: 700px;
     height: 50px;
-    background: rgb(255, 255, 130);
+    background: rgba(170, 245, 245, 0.8);
     border-radius: 20px;
 }
 
@@ -87,4 +90,50 @@ div {
     width: 650px;
     height: 10px;
     background: rgb(231, 231, 231);
+}
+
+.main {
+    display: flex;
+    flex-direction: column;
+
+    height: 490px;
+    width: 700px;
+    
+    background: rgba(170, 245, 245, 0.8);
+    border-radius: 50px;
+
+    overflow: hidden;
+    position: relative;
+
+    justify-content: flex-start;
+}
+.subtitle {
+    height: 50px;
+
+    display: flex;
+    justify-content: center;
+
+    padding-top: 20px;
+}
+
+
+.moveBar {
+    width: 700px;
+    height: 50px;
+
+    background: rgb(248, 248, 248);
+
+    display: flex;
+    justify-content: space-between;
+    align-items:center;
+}
+
+.barItem {
+    padding-top: 10px;
+    
+    width:60px;
+    background: rgb(123,123,123);
+
+    display:flex;
+    justify-content:center;
 }
