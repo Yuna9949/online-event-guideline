@@ -6,7 +6,7 @@
 
     <link rel="stylesheet" href="../../css/home.css">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
-
+    <meta charset="utf-8">
     <script src="../../js/2.js"></script>
 </head>
 
@@ -25,13 +25,13 @@
                         <a href="../home.html">Home</a>
                     </li>
                     <li>
-                        <a href="../zoom/0.html">Zoom</a>
+                        <a href="../zoom/0.html">친목도모형</a>
                     </li>
                     <li>
-                        <a href="../youtube/0.html">Youtube</a>
+                        <a href="../youtube/0.html">설명회</a>
                     </li>
                     <li class="active">
-                        <a href="./0.html">Google Meets</a>
+                        <a href="./0.html">참여형</a>
                     </li>
                 </ul>
             </div>
@@ -46,13 +46,13 @@
                 </div>
                 <div class="moveBar">
                     <div class="barItem" style="cursor:pointer;" onclick="location.href='./1.html';">
-                        <p>before</p>
+                        <p>&#60; Previous</p>
                     </div>
                     <div class="barItem">
-                        <p>2/n</p>
+                        <p>2/11</p>
                     </div>
                     <div class="barItem" style="cursor:pointer;" onclick="location.href='./3.html';">
-                        <p>after</p>
+                        <p>Next &#62;</p>
                     </div>
                 </div>
                 <div class="mainText">
@@ -60,10 +60,11 @@
                         참여 인원 수 결정
                     </h2>
                     <p>
-                        참여형 이벤트이기 때문에 참여인원의 충분한 참여를 위해서는 적당한 수의 참가 인원을 정하는 것이 좋다. 주 진행자의 역량과 보조 진행자의 명수를 고려하여 몇 명까지의 참가 인원이 적당할지 고려 후에 인원을 정하자. 
+                        참여형 이벤트이기 때문에 참여인원의 충분한 참여를 위해서는 적당한 수의 참가 인원을 정하는 것이 좋다. 주 진행자의 역량과 보조 진행자의 명수를 고려하여 몇 명까지의 참가
+                        인원이 적당할지 고려 후에 인원을 정하자.
                     </p>
                     <p>
-                        이후에 진행할 화상플랫폼까지 고려한다면 100명 미만으로 참가 인원을 정하는 것을 추천한다. 
+                        이후에 진행할 화상플랫폼까지 고려한다면 100명 미만으로 참가 인원을 정하는 것을 추천한다.
                     </p>
                     <hr>
                     <h4>연습하기</h4>
@@ -71,43 +72,44 @@
                         다음 사항을 고려하여 참여 인원 수를 결정해보자.
                     </p>
                     <form method="post" name="calc">
-                        <table class="tableStyle" >
+                        <table class="tableStyle">
                             <tr>
                                 <td>주 진행자</td>
                                 <td> : </td>
-                                <td><input name='mainP' type='number'/>명</td>
+                                <td><input name='mainP' type='number' />명</td>
                             </tr>
                             <tr>
                                 <td>보조 진행자</td>
                                 <td> : </td>
-                                <td><input name='subP' type='number'/>명</td>
+                                <td><input name='subP' type='number' />명</td>
                             </tr>
                             <tr>
                                 <td>진행자 당 참가 인원</td>
                                 <td> : </td>
-                                <td><input name='PpP' type='number'/>명</td>
+                                <td><input name='PpP' type='number' />명</td>
                             </tr>
                             <tr>
-                                <td><hr></td>
+                                <td>
+                                    <hr>
+                                </td>
                                 <td>.</td>
-                                <td><input type="button" value="Calculate" onClick="calcNow()"/></td>
+                                <td><input type="button" value="Calculate" onClick="calcNow()" /></td>
                             </tr>
                             <tr>
                                 <td>총 참가인원</td>
                                 <td> : </td>
-                                <td><input name='totalP' type='number'/>명</td>
+                                <td><input name='totalP' type='number' />명</td>
                             </tr>
                         </table>
                     </form>
                 </div>
             </div>
-            <div class="buttonPlace hCenter">
-                <div class="button" style="cursor:pointer;" onclick="location.href='#';">
-                    <p class="buttonText hCenter">Submit</p>
-                </div>
-            </div>
             <div class="persentage hCenter vCenter">
-                <div class="bar"></div>
+                <div class="bar">
+                    <div class="gauge2_11">
+                        18%
+                    </div>
+                </div>
             </div>
         </div>
     </div>
