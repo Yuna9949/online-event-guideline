@@ -73,9 +73,6 @@ div {
     background: rgba(170, 245, 245, 0.8);
     border-radius: 50px;
 
-    overflow: hidden;
-    position: relative;
-
     justify-content: center;
 }
 
@@ -102,22 +99,23 @@ div {
     background: rgba(170, 245, 245, 0.8);
     border-radius: 50px;
 
-    overflow: hidden;
-    position: relative;
-
     justify-content: flex-start;
+
+    position: static;
 }
 .subtitle {
-    height: 50px;
+    height: 50px !important;
 
     display: flex;
     justify-content: center;
 
     padding-top: 15px;
+    
+    position: static;
 }
 
-
 .moveBar {
+
     width: 700px;
     height: 50px;
 
@@ -126,6 +124,8 @@ div {
     display: flex;
     justify-content: space-between;
     align-items:center;
+
+    position: static;
 }
 
 .barItem {
@@ -139,9 +139,13 @@ div {
 }
 
 .mainText {
+
+    height: 375px;
+    width: 700px;
     padding-left: 25px;
     padding-right: 25px;
     overflow: auto;
+    
 }
 
 .tableStyle {
@@ -159,6 +163,7 @@ div {
 
 .imageMargin {
     margin-bottom:20px;
+    width: 630px;
 }
 
 .PosterContainer {
