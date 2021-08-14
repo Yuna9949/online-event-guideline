@@ -5,7 +5,7 @@ div {
 .background {
     width: 100vw;
     height: 100vh;
-    background: rgba(170, 245, 245, 0.8);
+    background: rgba(164, 218, 218, 0.8);
     
     top: 0;
     left: 0;
@@ -16,7 +16,7 @@ div {
     padding: 0 !important;
     max-height: 700px;
     min-height: 500px;
-    max-width: 1000px !important;
+    width: 1000px !important;
     height: 80vh !important;
     
     background: rgb(248, 248, 248);
@@ -53,8 +53,8 @@ div {
 
     margin-left: 40px;
     margin-right: 40px;
-    margin-top: 20px;
-    margin-bottom: 20px;
+    margin-top: 10px;
+    margin-bottom: 10px;
     justify-content: center;
 }
 
@@ -66,25 +66,28 @@ div {
     padding-top: 10px;
 }
 
-.persentage {
-    width: 700px;
-    height: 50px;
-    background: rgba(170, 245, 245, 0.8);
-    border-radius: 20px;
-}
+.purpose {
+    display: flex;
+    flex-direction: column;
 
-.bar {
-    width: 650px;
-    height: 10px;
-    background: rgb(231, 231, 231);
+    height: 455px;
+    width: 950px;
+    
+    background: rgba(170, 245, 245, 0.8);
+    border-radius: 50px;
+
+    justify-content: center;
+
+    padding: 100px;
+    text-align:center;
 }
 
 .main {
     display: flex;
     flex-direction: column;
 
-    height: 490px;
-    width: 700px;
+    height: 575px;
+    width: 950px;
     
     background: rgba(170, 245, 245, 0.8);
     border-radius: 50px;
@@ -93,6 +96,7 @@ div {
 
     position: static;
 }
+
 .subtitle {
     height: 50px !important;
 
@@ -106,7 +110,7 @@ div {
 
 .moveBar {
 
-    width: 700px;
+    width: 950px;
     height: 50px;
 
     background: rgb(248, 248, 248);
@@ -121,8 +125,8 @@ div {
 .barItem {
     padding-top: 10px;
     
-    width:60px;
-    background: rgb(123,123,123);
+    width:80px;
+    background: rgb(220, 220, 220);
 
     display:flex;
     justify-content:center;
@@ -130,8 +134,8 @@ div {
 
 .mainText {
 
-    height: 375px;
-    width: 700px;
+    height: 500px;
+    width: 950px;
     padding-left: 25px;
     padding-right: 25px;
     overflow: auto;
@@ -139,7 +143,7 @@ div {
 }
 
 .tableStyle {
-    width: 650px;
+    width: 900px;
 
     text-align: center;
 }
@@ -148,12 +152,19 @@ div {
     width: 200px;
     height: 50px;
 
-    resize:none;
+    resize: none;
 }
+.inputText {
+    width: 100%;
+}
+
 
 .imageMargin {
     margin-bottom:20px;
-    width: 630px;
+    width: 800px;
+}
+.imageCenter {
+    text-align:center;
 }
 
 .PosterContainer {
@@ -162,4 +173,343 @@ div {
 
 .centerPoster {
     text-align:center;
+}
+
+.persentage {
+
+    width: 700px;
+    height: 50px;
+    background: rgba(170, 245, 245, 0.8);
+    border-radius: 20px;
+    margin-top : 20px;
+}
+
+.bar {
+    width: 650px;
+    height: 20px;
+    background: rgb(231, 231, 231);
+}
+
+.gauge1_11 {
+    text-align: right;
+    padding-right: 5px;
+    color:aliceblue;
+    width: 59px;
+    height: 20px;
+    background: rgb(123, 123, 123);
+}
+
+.gauge2_11 {
+    text-align: right;
+    padding-right: 5px;
+    color:aliceblue;
+    width: 118px;
+    height: 20px;
+    background: rgb(123, 123, 123);
+}
+
+.gauge3_11 {
+    text-align: right;
+    padding-right: 5px;
+    color:aliceblue;
+    width: 177px;
+    height: 20px;
+    background: rgb(123, 123, 123);
+}
+
+.gauge4_11 {
+    text-align: right;
+    padding-right: 5px;
+    color:aliceblue;
+    width: 236px;
+    height: 20px;
+    background: rgb(123, 123, 123);
+}
+
+.gauge5_11 {
+    text-align: right;
+    padding-right: 5px;
+    color:aliceblue;
+    width: 295px;
+    height: 20px;
+    background: rgb(123, 123, 123);
+}
+
+.gauge6_11 {
+    text-align: right;
+    padding-right: 5px;
+    color:aliceblue;
+    width: 255px;
+    height: 20px;
+    background: rgb(123, 123, 123);
+}
+
+.gauge7_11 {
+    text-align: right;
+    padding-right: 5px;
+    color:aliceblue;
+    width: 414px;
+    height: 20px;
+    background: rgb(123, 123, 123);
+}
+
+.gauge8_11 {
+    text-align: right;
+    padding-right: 5px;
+    color:aliceblue;
+    width: 473px;
+    height: 20px;
+    background: rgb(123, 123, 123);
+}
+
+.gauge9_11 {
+    text-align: right;
+    padding-right: 5px;
+    color:aliceblue;
+    width: 532px;
+    height: 20px;
+    background: rgb(123, 123, 123);
+}
+
+.gauge10_11 {
+    text-align: right;
+    padding-right: 5px;
+    color:aliceblue;
+    width: 591px;
+    height: 20px;
+    background: rgb(123, 123, 123);
+}
+
+.gauge1_9 {
+    text-align: right;
+    padding-right: 5px;
+    color:aliceblue;
+    width: 72px;
+    height: 20px;
+    background: rgb(123, 123, 123);
+}
+
+.gauge2_9 {
+    text-align: right;
+    padding-right: 5px;
+    color:aliceblue;
+    width: 144px;
+    height: 20px;
+    background: rgb(123, 123, 123);
+}
+
+.gauge3_9 {
+    text-align: right;
+    padding-right: 5px;
+    color:aliceblue;
+    width: 217px;
+    height: 20px;
+    background: rgb(123, 123, 123);
+}
+
+.gauge4_9 {
+    text-align: right;
+    padding-right: 5px;
+    color:aliceblue;
+    width: 289px;
+    height: 20px;
+    background: rgb(123, 123, 123);
+}
+
+.gauge5_9 {
+    text-align: right;
+    padding-right: 5px;
+    color:aliceblue;
+    width: 361px;
+    height: 20px;
+    background: rgb(123, 123, 123);
+}
+
+.gauge6_9 {
+    text-align: right;
+    padding-right: 5px;
+    color:aliceblue;
+    width: 433px;
+    height: 20px;
+    background: rgb(123, 123, 123);
+}
+
+.gauge7_9 {
+    text-align: right;
+    padding-right: 5px;
+    color:aliceblue;
+    width: 506px;
+    height: 20px;
+    background: rgb(123, 123, 123);
+}
+
+.gauge8_9 {
+    text-align: right;
+    padding-right: 5px;
+    color:aliceblue;
+    width: 578px;
+    height: 20px;
+    background: rgb(123, 123, 123);
+}
+
+.gauge1_18 {
+    text-align: right;
+    padding-right: 5px;
+    color:aliceblue;
+    width: 36px;
+    height: 20px;
+    background: rgb(123, 123, 123);
+}
+
+.gauge2_18 {
+    text-align: right;
+    padding-right: 5px;
+    color:aliceblue;
+    width: 72px;
+    height: 20px;
+    background: rgb(123, 123, 123);
+}
+
+.gauge3_18 {
+    text-align: right;
+    padding-right: 5px;
+    color:aliceblue;
+    width: 108px;
+    height: 20px;
+    background: rgb(123, 123, 123);
+}
+
+.gauge4_18 {
+    text-align: right;
+    padding-right: 5px;
+    color:aliceblue;
+    width: 144px;
+    height: 20px;
+    background: rgb(123, 123, 123);
+}
+
+.gauge5_18 {
+    text-align: right;
+    padding-right: 5px;
+    color:aliceblue;
+    width: 181px;
+    height: 20px;
+    background: rgb(123, 123, 123);
+}
+
+.gauge6_18 {
+    text-align: right;
+    padding-right: 5px;
+    color:aliceblue;
+    width: 217px;
+    height: 20px;
+    background: rgb(123, 123, 123);
+}
+
+.gauge7_18 {
+    text-align: right;
+    padding-right: 5px;
+    color:aliceblue;
+    width: 253px;
+    height: 20px;
+    background: rgb(123, 123, 123);
+}
+
+.gauge8_18 {
+    text-align: right;
+    padding-right: 5px;
+    color:aliceblue;
+    width: 289px;
+    height: 20px;
+    background: rgb(123, 123, 123);
+}
+
+.gauge9_18 {
+    text-align: right;
+    padding-right: 5px;
+    color:aliceblue;
+    width: 325px;
+    height: 20px;
+    background: rgb(123, 123, 123);
+}
+
+.gauge10_18 {
+    text-align: right;
+    padding-right: 5px;
+    color:aliceblue;
+    width: 361px;
+    height: 20px;
+    background: rgb(123, 123, 123);
+}
+
+.gauge11_18 {
+    text-align: right;
+    padding-right: 5px;
+    color:aliceblue;
+    width: 397px;
+    height: 20px;
+    background: rgb(123, 123, 123);
+}
+
+.gauge12_18 {
+    text-align: right;
+    padding-right: 5px;
+    color:aliceblue;
+    width: 433px;
+    height: 20px;
+    background: rgb(123, 123, 123);
+}
+
+.gauge13_18 {
+    text-align: right;
+    padding-right: 5px;
+    color:aliceblue;
+    width: 469px;
+    height: 20px;
+    background: rgb(123, 123, 123);
+}
+
+.gauge14_18 {
+    text-align: right;
+    padding-right: 5px;
+    color:aliceblue;
+    width: 506px;
+    height: 20px;
+    background: rgb(123, 123, 123);
+}
+
+.gauge15_18 {
+    text-align: right;
+    padding-right: 5px;
+    color:aliceblue;
+    width: 542x;
+    height: 20px;
+    background: rgb(123, 123, 123);
+}
+
+.gauge16_18 {
+    text-align: right;
+    padding-right: 5px;
+    color:aliceblue;
+    width: 578px;
+    height: 20px;
+    background: rgb(123, 123, 123);
+}
+
+.gauge17_18 {
+    text-align: right;
+    padding-right: 5px;
+    color:aliceblue;
+    width: 614px;
+    height: 20px;
+    background: rgb(123, 123, 123);
+}
+
+.gauge100 {
+    text-align: right;
+    padding-right: 5px;
+    color:aliceblue;
+    width: 650px;
+    height: 20px;
+    background: rgb(123, 123, 123);
 }
