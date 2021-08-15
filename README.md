@@ -15,13 +15,26 @@
 
 ## 설치 및 배포 방법
 
-### 배포 방법
+### 설치
+1. node.js 설치
+2. Visual Studio Code용 Azure Web Apps 확장 설치
 
-1. git clone https://github.com/<YOUR_GITHUB_ACCOUNT_NAME>/online-event-guideline 실행 
+### 배포 방법
+1. GitHub 리포지토리를 컴퓨터에 복제 - <YOUR_GITHUB_ACCOUNT_NAME>은 GitHub 사용자 이름으로 변환
+```bash
+$ git clone https://github.com/<YOUR_GITHUB_ACCOUNT_NAME>/online-event-guideline
+```
 ![image](https://user-images.githubusercontent.com/88205708/129472602-689268ff-b374-450e-a847-2284fedfaee5.png)
 
-2. visual code 열어서 해당 파일 열기
-3. Azure 로고 click
+2. Visual Studio Code에서 복제한 리포지토리 폴더 열기
+
+3. 보기 > 명령 팔레트 > Azure: Sign In
+
+4. 명령 팔레트 > Azure: Select Subscriptions 로 배포 시 사용할 컨시어지 구독을 포함하도록 Azure 구독을 필터링
+![image](https://user-images.githubusercontent.com/82620252/129473330-0121d764-d55f-44a2-8efd-8d558dbe59c1.png)
+
+4. Azure 로고 click
+
 4. STATIC WEB APPS 레이블에 + 기호 누르기
 ![image](https://user-images.githubusercontent.com/88205708/129472630-3823dddc-4925-40df-9bc2-1bb50521dfc3.png)
 
