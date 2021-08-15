@@ -44,10 +44,8 @@ $ git clone https://github.com/<YOUR_GITHUB_ACCOUNT_NAME>/online-event-guideline
 ![image](https://user-images.githubusercontent.com/88205708/129472671-5f7ac141-3223-40f7-9c52-54aba7d2bf1d.png)
 ![image](https://user-images.githubusercontent.com/82620252/129473524-feae96d5-9c9d-463f-b85c-55bf186e788e.png)
 
-6. GitHub 리포지토리 사이트에서 Actions 탭에서 Azure Static Web Apps CI/CD의 Build and Deploy Job 프로세스 확인
-
+6. GitHub 리포지토리 사이트에서 Actions 탭에서 Azure Static Web Apps CI/CD의 Build and Deploy Job 프로세스 확인<br>
 ![image](https://user-images.githubusercontent.com/82620252/129473683-7f61c90a-26ad-43fa-8cc0-c00a2b836701.png)
 
-7. Build and Deploy 완료 후, Visual Studio Code로 돌아와서 STATIC WEB APPS 아래 내 프로젝트 오른쪽 클릭 후 Browse Site 선택하여 배포 확인
-
+7. Build and Deploy 완료 후, Visual Studio Code에서 STATIC WEB APPS 아래 내 프로젝트 오른쪽 클릭 후 Browse Site 선택하여 배포 확인<br>
 ![image](https://user-images.githubusercontent.com/82620252/129473800-72f63562-faba-4d77-9235-c071dcbaceec.png)
