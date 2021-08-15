@@ -24,25 +24,26 @@
 ```bash
 $ git clone https://github.com/<YOUR_GITHUB_ACCOUNT_NAME>/online-event-guideline
 ```
-![image](https://user-images.githubusercontent.com/88205708/129472602-689268ff-b374-450e-a847-2284fedfaee5.png)
 
 2. Visual Studio Code에서 복제한 리포지토리 폴더 열기
 
 3. 보기 > 명령 팔레트 > Azure: Sign In
 
-4. 명령 팔레트 > Azure: Select Subscriptions 로 배포 시 사용할 컨시어지 구독을 포함하도록 Azure 구독을 필터링
-![image](https://user-images.githubusercontent.com/82620252/129473330-0121d764-d55f-44a2-8efd-8d558dbe59c1.png)
+4. 명령 팔레트 > Azure: Select Subscriptions 로 배포 시 사용할 구독(Azure 구독1)을 포함하도록 Azure 구독을 필터링
+![image](https://user-images.githubusercontent.com/82620252/129473471-fc339a76-4972-418c-9772-86ac614bb5b2.png)
 
-4. Azure 로고 click
-
-4. STATIC WEB APPS 레이블에 + 기호 누르기
+5. Azure 로고를 선택하여 Azure 확장 창 열기
+6. STATIC WEB APPS 레이블에 + 기호 선택
 ![image](https://user-images.githubusercontent.com/88205708/129472630-3823dddc-4925-40df-9bc2-1bb50521dfc3.png)
 
-5. 구독: Azure 구독1 선택 > 앱 이름 입력>custom 선택 > ./ 입력 > ./ 입력
-![image](https://user-images.githubusercontent.com/88205708/129472649-f11c7ca0-1a11-49e0-865a-e3b495eb7d9d.png)
+5. 구독: Azure 구독1 선택 > 앱 이름 입력 > custom 선택 > ./ 입력 > 공란 입력
+![image](https://user-images.githubusercontent.com/82620252/129473541-46e9ccfb-54da-4040-be64-77cfcf4cf58b.png)
 ![image](https://user-images.githubusercontent.com/88205708/129472663-069e60e9-0f20-4072-b7a1-b0998ccca6e3.png)
 ![image](https://user-images.githubusercontent.com/88205708/129472671-5f7ac141-3223-40f7-9c52-54aba7d2bf1d.png)
-![image](https://user-images.githubusercontent.com/88205708/129472679-2cbcd0d0-2bf8-41b8-89c1-bdb55160f358.png)
+![image](https://user-images.githubusercontent.com/82620252/129473524-feae96d5-9c9d-463f-b85c-55bf186e788e.png)
 
-6. 앱 생성 완료 후 뜨는 팝업창에서 Open Actions in GitHub 선택 후 Build and Deploy process 확인
-7. Build and Deploy 완료 후, Visual Code로 돌아와서 STATIC WEB APPS 아래 내 프로젝트 오른쪽 클릭 후 Browse Site 선택.
+6. GitHub 리포지토리 사이트에서 Actions 탭에서 Azure Static Web Apps CI/CD의 Build and Deploy Job 프로세스 확인
+![image](https://user-images.githubusercontent.com/82620252/129473683-7f61c90a-26ad-43fa-8cc0-c00a2b836701.png)
+
+7. Build and Deploy 완료 후, Visual Studio Code로 돌아와서 STATIC WEB APPS 아래 내 프로젝트 오른쪽 클릭 후 Browse Site 선택하여 배포 확인
+![image](https://user-images.githubusercontent.com/82620252/129473800-72f63562-faba-4d77-9235-c071dcbaceec.png)
