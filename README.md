@@ -1,5 +1,6 @@
 # online-event-guideline
-# TEAM Gongdory <온라인 이벤트 가이드라인>
+## TEAM Gongdory 
+# <온라인 이벤트 가이드라인>
 ## 프로젝트 계획 이유
 코로나19로 인해 그동안 오프라인으로 진행되었던 다양한 행사들이 온라인으로 전환되었다. 또한 온라인으로 진행하면 참가자들의 시공간 제약이 줄어 온라인이 주는 편리함과 효용성을 이용하기 위해 다양한 기업들이 온라인으로 진행하는 시도를 하고 있다. 이를 위해 많은 기업들은 짧은 시간내에 오프라인으로 진행했던 이벤트들을 온라인상으로 가져와 진행하기 위해 노력하고 있다. 하지만 이런 변화가 너무 갑작스러워 어떤 플랫폼을 어떻게 사용하여 온라인 상으로 행사를 진행을 해야 하는지 가이드라인이 제공되지 않아 많은 담당자들이 어려움을 겪고 있다. 특히, 평소에 전자기기를 잘 다루지 못하는 사람들을 이 어려움이 더 크게 다가와 더 큰 걱정을 안고 있다. 따라서 그러한 어려움을 해결하고자 상황별 온라인 행사 진행 가이드라인을 제공하여 쉽게 따라할 수 있는 웹사이트를 제작하게 되었다.
 
@@ -20,7 +21,8 @@
 2. Visual Studio Code용 Azure Web Apps 확장 설치
 
 ### 배포 방법
-1. GitHub 리포지토리를 컴퓨터에 복제 - <YOUR_GITHUB_ACCOUNT_NAME>은 GitHub 사용자 이름으로 변환
+1. GitHub 리포지토리를 컴퓨터에 복제 
+- <YOUR_GITHUB_ACCOUNT_NAME>은 GitHub 사용자 이름으로 변환
 ```bash
 $ git clone https://github.com/<YOUR_GITHUB_ACCOUNT_NAME>/online-event-guideline
 ```
@@ -29,7 +31,7 @@ $ git clone https://github.com/<YOUR_GITHUB_ACCOUNT_NAME>/online-event-guideline
 
 3. 보기 > 명령 팔레트 > Azure: Sign In
 
-4. 명령 팔레트 > Azure: Select Subscriptions 로 배포 시 사용할 구독(Azure 구독1)을 포함하도록 Azure 구독을 필터링
+4. 명령 팔레트 > Azure: Select Subscriptions로 배포 시 사용할 구독(Azure 구독1)을 포함하도록 Azure 구독을 필터링
 ![image](https://user-images.githubusercontent.com/82620252/129473471-fc339a76-4972-418c-9772-86ac614bb5b2.png)
 
 5. Azure 로고를 선택하여 Azure 확장 창 열기
